@@ -1,0 +1,203 @@
+{
+  "findings": [{
+    "id": 1,
+    "severity": 1,
+    "category": "Stallstrip",
+    "layer": "AddOn",
+    "turbine": "KV-MGH-01",
+    "blade": "711",
+    "bladePostion": "A",
+    "repaired": "No"
+  },
+  {
+    "id": 1,
+    "severity": 2,
+    "category": "LPS",
+    "layer": "LEP",
+    "turbine": "KV-MGH-02",
+    "blade": "711",
+    "bladePostion": "B",
+    "repaired": "YES"
+  },
+  {
+    "id": 1,
+    "severity": 3,
+    "category": "ScratchesAndGouges",
+    "layer": "AddOn",
+    "turbine": "KV-MGH-03",
+    "blade": "711",
+    "bladePostion": "A",
+    "repaired": "No"
+  },
+  {
+    "id": 1,
+    "severity": 4,
+    "category": "Stallstrip",
+    "layer": "LEP",
+    "turbine": "KV-MGH-04",
+    "blade": "711",
+    "bladePostion": "A",
+    "repaired": "YES"
+  },
+  {
+    "id": 1,
+    "severity": 2,
+    "category": "LPS",
+    "layer": "AddOn",
+    "turbine": "KV-MGH-05",
+    "blade": "711",
+    "bladePostion": "D",
+    "repaired": "No"
+  },
+  {
+    "id": 1,
+    "severity": 3,
+    "category": "Stallstrip",
+    "layer": "AddOn",
+    "turbine": "KV-MGH-06",
+    "blade": "711",
+    "bladePostion": "A",
+    "repaired": "No"
+  },
+  {
+    "id": 1,
+    "severity": 2,
+    "category": "ScratchesAndGouges",
+    "layer": "LEP",
+    "turbine": "KV-MGH-07",
+    "blade": "711",
+    "bladePostion": "B",
+    "repaired": "No"
+  },
+  {
+    "id": 1,
+    "severity": 4,
+    "category": "LPS",
+    "layer": "Filler",
+    "turbine": "KV-MGH-08",
+    "blade": "711",
+    "bladePostion": "A",
+    "repaired": "No"
+  },
+  {
+    "id": 1,
+    "severity": 3,
+    "category": "LPS",
+    "layer": "AddOn",
+    "turbine": "KV-MGH-09",
+    "blade": "711",
+    "bladePostion": "C",
+    "repaired": "No"
+  },
+  {
+    "id": 1,
+    "severity": 2,
+    "category": "Stallstrip",
+    "layer": "LEP",
+    "turbine": "KV-MGH-10",
+    "blade": "711",
+    "bladePostion": "A",
+    "repaired": "No"
+  },
+  {
+    "id": 1,
+    "severity": 3,
+    "category": "LPS",
+    "layer": "AddOn",
+    "turbine": "KV-MGH-11",
+    "blade": "711",
+    "bladePostion": "D",
+    "repaired": "No"
+  },
+  {
+    "id": 1,
+    "severity": 4,
+    "category": "Stallstrip",
+    "layer": "Filler",
+    "turbine": "KV-MGH-12",
+    "blade": "711",
+    "bladePostion": "A",
+    "repaired": "YES"
+  },
+  {
+    "id": 1,
+    "severity": 1,
+    "category": "LPS",
+    "layer": "AddOn",
+    "turbine": "KV-MGH-13",
+    "blade": "711",
+    "bladePostion": "B",
+    "repaired": "YES"
+  },
+  {
+    "id": 1,
+    "severity": 2,
+    "category": "Stallstrip",
+    "layer": "AddOn",
+    "turbine": "KV-MGH-14",
+    "blade": "711",
+    "bladePostion": "D",
+    "repaired": "No"
+  },
+  {
+    "id": 1,
+    "severity": 3,
+    "category": "ScratchesAndGouges",
+    "layer": "Filler",
+    "turbine": "KV-MGH-15",
+    "blade": "711",
+    "bladePostion": "C",
+    "repaired": "No"
+  },
+  {
+    "id": 1,
+    "severity": 1,
+    "category": "Stallstrip",
+    "layer": "LEP",
+    "turbine": "KV-MGH-16",
+    "blade": "711",
+    "bladePostion": "A",
+    "repaired": "YES"
+  },
+  {
+    "id": 1,
+    "severity": 4,
+    "category": "LPS",
+    "layer": "AddOn",
+    "turbine": "KV-MGH-17",
+    "blade": "711",
+    "bladePostion": "D",
+    "repaired": "No"
+  },
+  {
+    "id": 1,
+    "severity": 1,
+    "category": "LPS",
+    "layer": "Filler",
+    "turbine": "KV-MGH-18",
+    "blade": "711",
+    "bladePostion": "A",
+    "repaired": "YES"
+  },
+  {
+    "id": 1,
+    "severity": 3,
+    "category": "Stallstrip",
+    "layer": "LEP",
+    "turbine": "KV-MGH-19",
+    "blade": "711",
+    "bladePostion": "C",
+    "repaired": "No"
+  },
+  {
+    "id": 1,
+    "severity": 2,
+    "category": "LPS",
+    "layer": "Filler",
+    "turbine": "KV-MGH-20",
+    "blade": "711",
+    "bladePostion": "B",
+    "repaired": "YES"
+  }
+]
+}
