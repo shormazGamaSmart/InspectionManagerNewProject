@@ -9,6 +9,7 @@ import { Finding } from 'src/app/models/finding.model';
 })
 export class FindingsComponent implements OnInit {
   public findings: Finding[];
+  public cols: any[];
 
   constructor(private findingService: FindingsService) { }
 
@@ -20,6 +21,15 @@ export class FindingsComponent implements OnInit {
     this.findings = res;
   });
 
+  this.cols = [
+    { field: 'severity', header: 'Severity' },
+    { field: 'category', header: 'Category' },
+    { field: 'layer', header: 'Layer' },
+    { field: 'turbine', header: 'Turbine' },
+    { field: 'blade', header: 'Blade' },
+    { field: 'position', header: 'Position' },
+    { field: 'repaired', header: 'Repaired' }
+];
   }
 
 }
