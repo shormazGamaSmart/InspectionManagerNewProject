@@ -10,6 +10,7 @@ import { Finding } from 'src/app/models/finding.model';
 export class FindingsComponent implements OnInit {
   public findings: Finding[];
   public cols: any[];
+  selectedFinding: Finding;
 
   constructor(private findingService: FindingsService) { }
 
@@ -31,5 +32,7 @@ export class FindingsComponent implements OnInit {
     { field: 'repaired', header: 'Repaired' }
 ];
   }
+
+
 
 }

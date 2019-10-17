@@ -1,4 +1,4 @@
-<p-table [columns]="cols" [value]="findings" [paginator]="true" [rows]="10">
+<p-table [columns]="cols" [value]="findings" [paginator]="true" [rows]="10" selectionMode="single" [(selection)]="selectedFinding">
   <ng-template pTemplate="header" let-columns>
       <tr>
          <th *ngFor="let col of columns" [pSortableColumn]="col.field">
@@ -8,7 +8,7 @@
       </tr>
   </ng-template>
   <ng-template pTemplate="body" let-findings let-columns="columns">
-      <tr>
+      <tr [pSelectableRow]="findings">
           <td *ngFor="let col of columns">
               {{findings[col.field]}}
       </td>
