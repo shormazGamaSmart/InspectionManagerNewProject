@@ -1,1 +1,24 @@
-<p>findings works!</p>
+<p-table [value]="findings">
+  <ng-template pTemplate="header">
+      <tr>
+          <th>Severity</th>
+          <th>Category</th>
+          <th>Layer</th>
+          <th>Turbine</th>
+          <th>Blade</th>
+          <th>Blade Position</th>
+          <th>Repaired</th>
+      </tr>
+  </ng-template>
+  <ng-template pTemplate="body" let-finding>
+      <tr>
+          <td>{{finding.severity}}</td>
+          <td>{{finding.category}}</td>
+          <td>{{finding.layer}}</td>
+          <td>{{finding.turbine}}</td>
+          <td>{{finding.blade}}</td>
+          <td>{{finding.bladePosition}}</td>
+          <td>{{finding.repaired}}</td>
+      </tr>
+  </ng-template>
+</p-table>

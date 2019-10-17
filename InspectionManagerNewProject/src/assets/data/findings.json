@@ -1,5 +1,4 @@
-{
-  "findings": [{
+ [{
     "id": 1,
     "severity": 1,
     "category": "Stallstrip",
@@ -200,4 +199,4 @@
     "repaired": "YES"
   }
 ]
-}
+

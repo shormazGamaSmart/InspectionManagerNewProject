@@ -1,10 +1,10 @@
 export interface Finding {
-  id;
-  severity;
-  category;
-  layer;
-  turbine;
-  blade;
-  bladePostion;
-  repaired;
+  id: number;
+  severity: number;
+  category: string;
+  layer: string;
+  turbine: string;
+  blade: string;
+  bladePostion: string;
+  repaired: string;
 }

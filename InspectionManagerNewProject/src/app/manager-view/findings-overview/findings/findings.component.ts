@@ -1,4 +1,6 @@
+import { FindingsService } from './../../../services/findings.service';
 import { Component, OnInit } from '@angular/core';
+import { Finding } from 'src/app/models/finding.model';
 
 @Component({
   selector: 'app-findings',
@@ -6,10 +8,18 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./findings.component.scss']
 })
 export class FindingsComponent implements OnInit {
+  public findings: Finding[];
 
-  constructor() { }
+  constructor(private findingService: FindingsService) { }
+
+
 
   ngOnInit() {
+
+  this.findingService.getObservableFindings().subscribe( res => {
+    this.findings = res;
+  });
+
   }
 
 }

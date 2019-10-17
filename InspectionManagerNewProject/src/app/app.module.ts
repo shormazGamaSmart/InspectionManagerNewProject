@@ -11,6 +11,7 @@ import {AccordionModule} from 'primeng/accordion';
 import {TableModule} from 'primeng/table';
 import { FindingsService } from './services/findings.service';
 import { HttpClientModule } from '@angular/common/http';
+import {MultiSelectModule} from 'primeng/multiselect';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { HttpClientModule } from '@angular/common/http';
     AppRoutingModule,
     AccordionModule,
     HttpClientModule,
-    TableModule
+    TableModule,
+    MultiSelectModule
   ],
   providers: [FindingsService],
   bootstrap: [AppComponent]

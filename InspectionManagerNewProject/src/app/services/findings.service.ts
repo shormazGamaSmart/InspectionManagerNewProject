@@ -6,20 +6,17 @@ import 'rxjs/add/operator/map'
 
 @Injectable()
 export class FindingsService {
-  url = '../findings.json';
-  findings = [];
-  constructor(private http: HttpClient){}
+  private url: string = '../../assets/data/findings.json';
+  constructor(private http: HttpClient) {}
 
   getFindings() {
-    return this.http.get(this.url).toPromise().then(data => {
+    return this.http.get('../../assets/data/findings.json')
+                    .toPromise()
+                    .then(res => res as Finding[])
+                    .then(data => data);
+    }
 
-        for (let key in data) {
-        if (data.hasOwnProperty(key)) {
-        this.findings.push(data[key]);
-        }
-        }
-    });
+    public getObservableFindings(): Observable<Finding[]> {
+      return this.http.get<Finding[]>(this.url);
+    }
   }
-
-
-}
