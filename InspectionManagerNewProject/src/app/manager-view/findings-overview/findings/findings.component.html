@@ -1,4 +1,14 @@
-<p-table [columns]="cols" [value]="findings" [paginator]="true" [rows]="10" selectionMode="single" [(selection)]="selectedFinding">
+<p-table
+[columns]="cols"
+[value]="findings"
+[paginator]="true"
+[rows]="5"
+selectionMode="single"
+[(selection)]="selectedFinding"
+[lazy]="true"
+(onLazyLoad)="loadFindingsLazy($event)"
+[totalRecords]="totalRecords"
+[loading]="loading">
   <ng-template pTemplate="header" let-columns>
       <tr>
          <th *ngFor="let col of columns" [pSortableColumn]="col.field">

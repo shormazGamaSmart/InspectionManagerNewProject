@@ -13,9 +13,8 @@ export class FindingsService {
       return this.http.get<Finding[]>(this.url);
     }
 
-    public getObservableFindingsPaged(pageSize: number, pageIndex: number): Observable<Finding[]> {
-      this.getObservableFindings().subscribe(result => {
-
-      });
+    public getPromiseFindingsPromise(): Promise<Finding[]> {
+      return this.http.get<Finding[]>(this.url).toPromise();
     }
+
   }
