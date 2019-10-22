@@ -10,7 +10,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {AccordionModule} from 'primeng/accordion';
 import {TableModule} from 'primeng/table';
 import { FindingsService } from './services/findings.service';
-import { HttpClientModule } from '@angular/common/http';
+import {HttpClientModule} from '@angular/common/http';
 import {MultiSelectModule} from 'primeng/multiselect';
 
 @NgModule({
