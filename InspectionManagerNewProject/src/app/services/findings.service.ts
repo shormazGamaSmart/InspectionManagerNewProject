@@ -13,8 +13,8 @@ export class FindingsService {
       return this.http.get<Finding[]>(this.url);
     }
 
-    public getPromiseFindingsPromise(): Promise<Finding[]> {
-      return this.http.get<Finding[]>(this.url).toPromise();
-    }
+    // public getPromiseFindingsPromise(): Promise<Finding[]> {
+    //   return this.http.get<Finding[]>(this.url).toPromise();
+    // }
 
   }

@@ -18,7 +18,7 @@ import {MultiSelectModule} from 'primeng/multiselect';
     AppComponent,
     ManagerViewComponent,
     FindingsOverviewComponent,
-    FindingsComponent,
+    FindingsComponent
   ],
   imports: [
     BrowserModule,

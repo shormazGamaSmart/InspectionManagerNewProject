@@ -1,6 +1,6 @@
 import { FindingsService } from './../../../services/findings.service';
 import { Component, OnInit } from '@angular/core';
-import { Finding } from '../findings/findings.component.spec';
+import { Finding } from '../../../models/finding.model';
 import { SortMeta } from 'primeng/components/common/sortmeta';
 import { FilterMetadata } from 'primeng/components/common/filtermetadata';
 
